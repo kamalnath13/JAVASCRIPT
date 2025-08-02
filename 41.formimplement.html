@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="41.formimplement.css">
+
+    </head>
+<body>
+<h2>HTML Form with JavaScript Interaction</h2>
+
+<fieldset>
+<legend>Registration Form</legend>
+<form id="registrationForm">
+
+    <!-- First Name -->
+    <label for="firstname">First Name:</label><br>
+    <input type="text" id="firstname" name="firstname" placeholder="Enter your name"><br>
+
+    <!-- Password -->
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" placeholder="Enter a password"><br>
+
+    <!-- Date -->
+    <label for="date">Select Date:</label><br>
+    <input type="date" id="date" name="date"><br>
+
+    <!-- Time -->
+    <label for="time">Select Time:</label><br>
+    <input type="time" id="time" name="time" ><br>
+
+    <!-- Dropdown -->
+    <label>Course (Dropdown):</label><br>
+    <select id="course" multiple>
+        <option value="C">C</option>
+        <option value="Python">Python</option>
+        <option value="Java">Java</option>
+    </select><br>
+
+    <!-- Textarea -->
+    <label>Enter Your Address:</label><br>
+    <textarea id="address" cols="40" rows="5" placeholder="Enter your address"></textarea><br>
+
+    <!-- Gender -->
+    Enter Your Gender:<br>
+    <input type="radio" id="female" name="gender" value="Female"> Female<br>
+    <input type="radio" id="male" name="gender" value="Male"> Male<br>
+
+    <!-- Children -->
+    What Children Do You Have:<br>
+    <input type="checkbox" id="childFemale" name="children" value="Female"> Female<br>
+    <input type="checkbox" id="childMale" name="children" value="Male"> Male<br>
+
+    <!-- File Upload -->
+    <label>Upload File:</label>
+    <input type="file" id="fileInput" multiple><br>
+
+    <!-- Color Picker -->
+    <label>Select Color:</label>
+    <input type="color" id="colorPicker"><br>
+
+    <!-- Range -->
+    <label>Adjust Volume:</label>
+    <input type="range" id="volumeRange" min="0" max="100"><br>
+
+    <!-- Date and Time -->
+    <label for="datetime">Enter Date and Time:</label>
+    <input type="datetime-local" id="datetime" name="datetime"><br>
+
+    <!-- Email -->
+    <label for="email">Enter Your Email:</label>
+    <input type="email" id="email" name="email"><br>
+
+    <!-- Month -->
+    <label for="month">Enter Month:</label>
+    <input type="month" id="month" name="month"><br>
+
+    <!-- Number -->
+    <label for="number">Enter a Number (1 to 5):</label>
+    <input type="number" id="number" name="number" min="1" max="5"><br>
+
+    <!-- Search -->
+    <label for="search">Google Search:</label>
+    <input type="search" id="search" name="search"><br>
+
+    <!-- Telephone -->
+    <label for="tele">Enter Your Telephone No:</label>
+    <input type="tel" id="tele" name="tele" placeholder="123-45-678"><br>
+
+    <!-- Week -->
+    <label for="week">Enter Week:</label>
+    <input type="week" id="week" name="week"><br>
+
+    <!-- URL -->
+    <label for="url">Enter Your URL:</label>
+    <input type="url" id="url" name="url"><br>
+
+    <!-- Submit Button -->
+    <button type="button" id="submitButton">Submit</button>
+
+</form>
+</fieldset>
+
+
+</body>
+</html>
